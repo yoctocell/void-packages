@@ -1,0 +1,14 @@
+# Template file for 'terminal-typeracer'
+pkgname=terminal-typeracer
+version=2.0.2
+revision=1
+wrksrc="${pkgname}-v${version}"
+build_style=cargo
+hostmakedepends="pkg-config"
+makedepends="sqlite-devel libressl-devel"
+short_desc="Terminal based version of Typeracer written in rust"
+maintainer="yoctocell <yoctocell.code@keemail.me"
+license="GPL-3.0-or-later"
+homepage="https://gitlab.com/ttyperacer/terminal-typeracer"
+distfiles="https://gitlab.com/ttyperacer/terminal-typeracer/-/archive/v${version}/${pkgname}-v${version}.tar.gz"
+checksum=1534a02dde410b18cfd7887b6b55efe0482c2470a014c9471303542e0878ba0d
